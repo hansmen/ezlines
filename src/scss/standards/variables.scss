@@ -1,0 +1,26 @@
+// grid breakpoints
+$grid-breakpoints: ( xs:0, sm: 768px, md: 1024px, lg: 1440px);
+// grid containers
+$container-max-widths: (sm: 720px, md: 980px, lg: 1390px);
+
+// grid columns
+$grid-columns: 12 !default;
+$gutter: 20px !default;
+$gutter-xs: 40px !default;
+// font
+$Montserrat: 'Montserrat';
+$font-default: "Helvetica Neue",
+Helvetica,
+sans-serif;
+$body-font-size: 16px;
+// selection color
+// "../Fonts
+@include font-face("Montserrat", "../fonts/Montserrat-Ultralight/Montserrat-DUltralight", normal, 200);
+@include font-face("Montserrat", "../fonts/Montserrat-Thin/Montserrat-Thin", normal, 300);
+@include font-face("Montserrat", "../fonts/Montserrat-Regular/Montserrat-Regular", normal, 400);
+@include font-face("Montserrat", "../fonts/Montserrat-Medium/Montserrat-Medium", normal, 500);
+@include font-face("Montserrat", "../fonts/Montserrat-Semibold/Montserrat-Semibold", normal, 600);
+@include font-face("Montserrat", "../fonts/Montserrat-Bold/Montserrat-Bold", normal, 700);
+@include font-face("Montserrat", "../fonts/Montserrat-Black/Montserrat-Black", normal, 900);
+//-----------------------------------------------------------------------------------
+$text-color: #000;
